@@ -26,6 +26,6 @@ if __name__ == "__main__":
     n = len(arr)
 
     if (check(arr, n)):
-        print("Yes")
+        print("True")
     else:
-        print("No")
+        print("False")
