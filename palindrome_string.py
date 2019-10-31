@@ -8,7 +8,7 @@ def isKPalRec(str1, str2, m, n):
     if str1[m - 1] == str2[n - 1]:
         return isKPalRec(str1, str2, m - 1, n - 1)
     res = 1 + min(isKPalRec(str1, str2, m - 1, n),
-                  (isKPalRec(str1, str2, m, n - 1))) 
+                  (isKPalRec(str1, str2, m, n - 1)))
     return res
 
 
